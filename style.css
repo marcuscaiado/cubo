@@ -90,3 +90,16 @@ body {
     0 0 300px rgba(0, 255, 0, 0.6), 0 0 400px rgba(0, 255, 0, 0.8),
     0 0 500px rgba(0, 255, 0, 1);
 }
+section {
+  animation: animateColor 8s linear infinite;
+}
+@keyframes animateColor
+{
+  0%
+  {
+    filter: hue-rotate(360deg)
+  }
+  {
+    100%
+  }
+}
